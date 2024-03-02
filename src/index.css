@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.button-dugme{
+  background-color: blue;
+  color:white;
+  
+  margin-left: 5px;
+}
+.todo-wraper{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dugme{
+  background-color:red;
+  color: white;
+  margin-left: 5px;
+}
+.button-dugme:disabled{
+  background-color: gray;
+}
+.button-dugme:hover:not(:disabled){
+  cursor: pointer;
+}
+.action-wrapper{
+  margin-left:  10px;
+}
+.edit-button{
+  background-color: white;
+  color:black;
+}
+button:hover:not(:disabled){
+  cursor:pointer;
+}
+.complete-button{
+  background-color: gray;
+  color:white;
+  margin-right: 5px;
+  
+
+}
+
+.complete{
+  text-decoration: line-through;
+}
+button:disabled{
+  background-color: gray;
+}
